@@ -2,8 +2,7 @@ function insertionSort(arr) {
      for (let i = 0; i < arr.length; i++) {
           let currentVal = arr[i];
 
-          // this
-          for (let j = i - 1; j > -1 && arr[j] > currentVal; j--) {
+          for (var j = i - 1; j > -1 && arr[j] > currentVal; j--) {
                arr[j + 1] = arr[j];
           }
 
